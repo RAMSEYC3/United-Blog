@@ -1,0 +1,77 @@
+Tracking finishing the  blog site 
+
+https://youtu.be/j942wKiXFu8?si=PDN2Re1M5JwVX2y4
+
+
+Always cd blog & npm start
+
+Type "cd.." and press "Enter" to go back one directory. 
+
+Type "cd\" and press "Enter" to go to the root of the drive. 
+
+Study about all this topics later.
+
+ 
+video 1 ✔️ Introduction  to react 
+
+video 2 ✔️ Creating a React Application
+
+video 3 ✔️ Components & Templates
+
+video 4 ✔️ Dynamic Values in Templates
+
+video 5 ✔️  Multiple Components
+
+video 6 ✔️ Adding css to the react App also adding inline css 
+
+video 7 ✔️ Click Events( watch again during spare time it's a must )
+
+video 8 ✔️  Using State (useState hook) (the data being used on the object ) any data types 
+
+video 9 ✔️ React dev tools 
+
+video 10✔️ Outputting Lists used the map method to scan through the array to out put the details and  learn arrow functions and  callback functions 
+
+video 11✔️  Props is a way you can pass data from a parent component to a child component 
+
+video 12 
+
+video 13
+
+video 14
+
+video 15
+
+video 16
+
+video 17
+
+video 18
+
+video 19
+
+video 20
+
+video 21
+
+video 22
+
+video 23
+
+video 24
+
+video 25
+
+video 26
+
+video 27
+
+video 28
+
+video 29
+
+video 30
+
+video 31
+
+video 32
