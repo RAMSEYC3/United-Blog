@@ -36,9 +36,9 @@ video 11✔️Props is a way you can pass data from a parent component to a chil
 
 video 12✔️Reusing Components
 
-video 13✔️Functions as Props
+video 13✔️Functions as Props let users delete blogs 
 
-video 14
+video 14✔️useEffect Hook (the basics)
 
 video 15
 
