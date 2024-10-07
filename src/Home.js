@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import ListBlogs from './ListBlogs';
 
 function Home() {
@@ -10,18 +10,15 @@ function Home() {
   ])
 
   const handleDelete = (id) => {
-      const newBlogs = blogs.filter()
+    const newBlogs = blogs.filter(blog => blog.id !== id); //does not change orignal data 
+    //using the filter method to filter out all the blogs that are not written by mario 
+    setblogs(newBlogs)
   }
-
-  useEffect(() => {
-    console.log("use effect ran ")
-  });
 
   return (
     <div className='Home'>
       <ListBlogs blogs={blogs} title={"All blogs"} handleDelete={handleDelete} />
-      <ListBlogs blogs={blogs.filter((blog) => blog.author === 'Mario')} title={"Mario's blog"} />
-    </div > //using the filter method to filter out all the blogs that are not written by mario 
+    </div >
   )
 }
 
