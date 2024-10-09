@@ -2,7 +2,6 @@ Tracking finishing the  blog site
 
 https://youtu.be/j942wKiXFu8?si=PDN2Re1M5JwVX2y4
 
-
 Always cd blog & npm start
 
 Type "cd.." and press "Enter" to go back one directory. 
@@ -11,7 +10,6 @@ Type "cd\" and press "Enter" to go to the root of the drive.
 
 Study about all this topics later.
 
- 
 video 1 ✔️Introduction  to react 
 
 video 2 ✔️Creating a React Application
@@ -40,15 +38,18 @@ video 13✔️Functions as Props let users delete blogs
 
 video 14✔️useEffect Hook (the basics)
 
-video 15
+video 15✔️useEffect Dependencies
 
-video 16
+video 16✔️Using JSON Server we going to use it to fetch data  watch how to create a api with json  created a local api 
+           Made a fake rest api
+           going to fetch from the local database 
 
-video 17
+video 17✔️Fetching Data with useEffect fetching data from the local database with a fetch request 
+           what does  " npx json-server --watch data/db.json --port 8000 "
 
-video 18
+video 18✔️Conditional Loading Message while trying to fetch data fom database
 
-video 19
+video 19✔️Handling Fetch Errors 
 
 video 20
 

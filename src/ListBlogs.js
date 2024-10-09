@@ -1,7 +1,7 @@
 import React from 'react'
-import './css/ListBlogs.css' //for css so don not worry
+import './css/ListBlogs.css'//importing my css file from css folder 
 
-const ListBlogs = ({ blogs, title, handleDelete }) => {
+const ListBlogs = ({ blogs, title }) => {
     return (
         <div className='blog-list'>
             <h2>{title}</h2>
@@ -9,7 +9,6 @@ const ListBlogs = ({ blogs, title, handleDelete }) => {
                 <div className="blog-preview" key={blog.id}>
                     <h2>{blog.title}</h2>
                     <p>Written by {blog.author}</p>
-                    <button className='delete-blog' onClick={() => handleDelete(blog.id)}>Delete blog</button>
                 </div>
             ))
             }
