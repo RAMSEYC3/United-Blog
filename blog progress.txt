@@ -8,6 +8,12 @@ Type "cd.." and press "Enter" to go back one directory.
 
 Type "cd\" and press "Enter" to go to the root of the drive. 
 
+terminal 1  start server 
+
+terminal 2  watch database
+
+terminal 3  install react Router > npm install react-router-dom@5
+
 Study about all this topics later.
 
 video 1 ✔️Introduction  to react 
@@ -51,13 +57,15 @@ video 18✔️Conditional Loading Message while trying to fetch data fom databas
 
 video 19✔️Handling Fetch Errors 
 
-video 20
+video 20✔️Making a Custom Hook create a file that fetches datafrom the local database on a separtae file 
 
-video 21
+video 21✔️Making a Custom Hook ✔️Making the code more reusable
+           Creating a hook that fetches data 
+           The React Router having multiple pages on a eact projects
 
-video 22
+video 22✔️ Exact Match Routes
 
-video 23
+video 23✔️
 
 video 24
 
