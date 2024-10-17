@@ -1,7 +1,7 @@
 {
   "blogs": [
     {
-      "title": "My first Blog",
+      "title": "My first Blog !",
       "body": "Why do we use it ?\nIt is a long fact  that we will not forget ",
       "author": "mario",
       "id": 1
@@ -13,15 +13,15 @@
       "id": 2
     },
     {
-      "title": "Closing school !",
+      "title": "Let's  Goooo  !",
       "body": "Why do we use it ?\nIt is a long fact that we will  not forget ",
       "author": "Cedou",
       "id": 3
     },
     {
-      "title": "The goat programmer!",
+      "title": "Opening day !",
       "body": "Why do we use it ?\nIt is a long fact that we will  not forget ",
-      "author": "David",
+      "author": "Hulk",
       "id": 4
     }
   ]

@@ -1,5 +1,6 @@
 import React from 'react'
 import './css/ListBlogs.css'//importing my css file from css folder 
+import { Link } from 'react-router-dom'
 
 const ListBlogs = ({ blogs, title }) => {
     return (
@@ -7,11 +8,12 @@ const ListBlogs = ({ blogs, title }) => {
             <h2>{title}</h2>
             {blogs.map((blog) => (//sturdy this line of code map method bwing used to display information
                 <div className="blog-preview" key={blog.id}>
-                    <h2>{blog.title}</h2>
-                    <p>Written by {blog.author}</p>
+                    <Link to={`/blogs/${blog.id}`}>
+                        <h2>{blog.title}</h2>
+                        <p>Written by {blog.author}</p>
+                    </Link>
                 </div>
-            ))
-            }
+            ))}
         </div>
     )
 }

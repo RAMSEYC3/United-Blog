@@ -7,8 +7,10 @@ const useFetch = (url) => {
 
     //fetching the data from the local database which is db.json 
     useEffect(() => {
+        const abortCont = new AbortController();
+
         setTimeout(() => {
-            fetch('http://localhost:8000/blogs')
+            fetch(url, { signal: abortCont.signal })
                 .then(res => {
                     if (!res.ok) {
                         throw Error("Could not connect to database try later")
@@ -21,15 +23,22 @@ const useFetch = (url) => {
                     setError(null);
                 })
                 .catch(err => {
-                    setIsPending(false);
-                    setError(err.message);
+                    if (err.name === 'AbortError') {
+                        console.log('fetch aborted')
+                    } else {
+                        setIsPending(false);
+                        setError(err.message);
+                    }
                 })
         }, 2000)//set the time for loading while fetching data from databse 
+        return () => abortCont.abort
     }, []);
-
+    
     return { data, isPending, error }
 }
 
 export default useFetch
+
+
 
 

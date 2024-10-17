@@ -10,7 +10,7 @@ Type "cd\" and press "Enter" to go to the root of the drive.
 
 terminal 1  start server 
 
-terminal 2  watch database
+terminal 2  watch database with  { npx json-server --watch data/db.json --port 8000 } 
 
 terminal 3  install react Router > npm install react-router-dom@5
 
@@ -63,15 +63,15 @@ video 21✔️Making a Custom Hook ✔️Making the code more reusable
            Creating a hook that fetches data 
            The React Router having multiple pages on a eact projects
 
-video 22✔️ Exact Match Routes
+video 22✔️ Exact Match Routes i used the modern routinng methods on w3chool 
 
-video 23✔️
+video 23✔️router links 
 
-video 24
+video 24✔️useEffect cleanup 
 
-video 25
+video 25✔️Route Parameters not working at all 
 
-video 26
+video 26✔️Controlled Inputs (forms) on
 
 video 27
 

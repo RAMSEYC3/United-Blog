@@ -1,16 +1,14 @@
-import React from 'react'
+import React from 'react';
+import '../css/Navbar.css';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
     return (
         <nav className='navbar'>
             <h1>The united  blog </h1>
             <div className="links">
-                <a href='/'>home</a>
-                <a href='/create' style={{
-                    // color:"white",
-                    // backgroundColor:"#f1356d",
-                    // borderRadius:"8px"
-                }}>New blog</a>
+                <Link to='/'>home</Link>
+                <Link to='/create' >New blog</Link>
             </div>
         </nav>
     )
