@@ -58,12 +58,12 @@ video 18✔️Conditional Loading Message while trying to fetch data fom databas
 video 19✔️Handling Fetch Errors 
 
 video 20✔️Making a Custom Hook create a file that fetches datafrom the local database on a separtae file 
-
 video 21✔️Making a Custom Hook ✔️Making the code more reusable
            Creating a hook that fetches data 
            The React Router having multiple pages on a eact projects
 
 video 22✔️ Exact Match Routes i used the modern routinng methods on w3chool 
+
 
 video 23✔️router links 
 
@@ -71,11 +71,11 @@ video 24✔️useEffect cleanup
 
 video 25✔️Route Parameters not working at all 
 
-video 26✔️Controlled Inputs (forms) on
+video 26✔️ Reusing custom hooks 
 
-video 27
+video 27✔️Controlled Inputs (forms)
 
-video 28
+video 28✔️Submit Events
 
 video 29
 
